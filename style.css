@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.headerdiv {
+  justify-content: space-between;
+  padding: 10px 0;
+}
+header {
+  height: 67px;
+  border-radius: 0px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #C6C6C6;
+}
+.img1 {
+  width: 127px;
+  border-radius: 0px;
+}
+.img1,
+.img2,
+.img3 {
+  height: 50px;
+}
+.img2,
+.img3 {
+  width: 50px;
+  border-radius: 50%;
+}
+.img3 {
+  margin: auto 10px;
+}
+.headerdiv,
+.info {
+  display: flex;
+}
+.one {
+  margin-bottom: 0;
+}
+.two {
+  margin-top: 0;
+}
+.img4 {
+  height: 375px;
+}
+.img4, header{
+    width: 375px;
+}
+.icon1 {
+  height: 23px;
+  width: 23px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+footer {
+  margin-left: 10px;
+}
+.likes {
+  width: 343px;
+  height: 16px;
+}
+span {
+  font-weight: 300;
+}
+.vince,.likes, .one, .two {
+  font-size: 13px;
+}
